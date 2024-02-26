@@ -20,6 +20,7 @@
     function close() {
       $con = $this->connect();
       mysqli_close($con);
+      echo "Conn closed";
     }
   }
 ?>
